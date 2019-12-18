@@ -6,17 +6,17 @@ var Schema = mongoose.Schema;
 var ArticleSchema = new Schema({
     headline: {
         type: String,
-        required: true
+        
     },
 
     summary: {
         type: String,
-        required: true
+        
     },
-    
+
   link: {
         type: String,
-        required: true
+       
     },
 
     comment: {
